@@ -44,15 +44,15 @@ const Feature = () => {
   return (
    <section className='max-w-[1720px] mx-auto flex flex-col items-center py-10 text-[#333333]'>
         <div className='flex flex-col gap-4 justify-center items-center pb-10'>
-            <h1 className=' text-center xl:text-[28px] text-xl font-bold '>A Complete Feature-Suite to Build Your Custom Mobile Apps</h1>
-            <p className='xl:text-[22px] font-[500] text-[18px] text-center'>We offer end-to-end features to drive engagement & revenue for your brand</p>
+            <h1 className=' text-center xl:text-[30px] text-xl font-semibold '>A Complete Feature-Suite to Build Your Custom Mobile Apps</h1>
+            <p className='xl:text-[24px] font-[500] text-[18px] text-center'>We offer end-to-end features to drive engagement & revenue for your brand</p>
         </div>
       
-        <div className='grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10  mx-20'>
+        <div className='grid xl:grid-cols-3 md:grid-cols-3 grid-cols-1 gap-10  mx-20'>
          {array.map((item,index)=>(
             <div key={index} className={`flex flex-col ${index==0?"bg-[#3D8BF5] text-white":""} hover:text-white items-center justify-center rounded hover:bg-[#3D8BF5] border border-blue-400 px-4 py-14 `}>
          
-                     <img className='w-15 h-15  ' src={item.img}/>
+                   <h1 className=''>  <img className='w-15 h-15  ' src={item.img}/></h1>
       
                   <p className='mt-4 text-lg' >{item.para}</p>
             </div>

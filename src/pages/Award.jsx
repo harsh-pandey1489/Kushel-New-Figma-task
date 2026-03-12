@@ -5,20 +5,23 @@ const array=[
         star:"https://res.cloudinary.com/dumjuhrob/image/upload/v1773221604/Mask_group_1_kqrjki.png",
         img:"https://res.cloudinary.com/dumjuhrob/image/upload/v1773221699/goodfirms-logo-vector_2_smyhii.png",
         para:"Reviewed by Goodfirms with 4.9/5 ratings based upon client reviews",
-        rating:"4.9/5"
+        rating:"4.9/5",
+        bgimg:"https://res.cloudinary.com/dumjuhrob/image/upload/v1773247884/Award-PNG_1_siar44.png"
     },
     
       {
         star:"https://res.cloudinary.com/dumjuhrob/image/upload/v1773221604/Mask_group_1_kqrjki.png",
         img:"https://res.cloudinary.com/dumjuhrob/image/upload/v1773221967/AppFuturaLogo_1_xlgpe3.png",
         para:"Reviewed by Goodfirms with 4.9/5 ratings based upon client reviews",
-        rating:"4.0/5"
+        rating:"4.0/5",
+         bgimg:"https://res.cloudinary.com/dumjuhrob/image/upload/v1773247884/Award-PNG_1_siar44.png"
     },
         {
         star:"https://res.cloudinary.com/dumjuhrob/image/upload/v1773221604/Mask_group_1_kqrjki.png",
         img:"https://res.cloudinary.com/dumjuhrob/image/upload/v1773222041/upwork-icon-2048x608-o3vqgs7j_2_nkkbth.png",
         para:"Reviewed by Goodfirms with 4.9/5 ratings based upon client reviews",
-        rating:"4.6/5"
+        rating:"4.6/5",
+         bgimg:"https://res.cloudinary.com/dumjuhrob/image/upload/v1773247884/Award-PNG_1_siar44.png"
     },
 ]
 
@@ -32,7 +35,8 @@ const Award = () => {
       
         <div className='grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10  mx-20'>
           {array.map((item,index)=>(
-            <div key={index} className='py-10 p-5 rounded-xl   bg-white'>
+            <div key={index} className='relative py-10 p-5  rounded-xl   bg-white'>
+              <img className='absolute right-0 top-0 w-36 h-30' src={item.bgimg}/>
                <div className='flex items-center gap-1 text-xl font-[500]'>
                 <img src={item.star} className='w-7 h-7'/>
                 <p >{item.rating}</p>

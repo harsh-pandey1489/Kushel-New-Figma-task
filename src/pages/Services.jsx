@@ -34,11 +34,11 @@ const Services = () => {
   return (
     <section className=' max-w-[1720px] text-center  mx-auto pb-10 bg-[#D9D9D9]/30'>
 
-      <div className='w-full xl:pt-50 pt-140  '>
+      <div className='w-full xl:pt-60 pt-140  '>
         <div className='w-full items-center flex justify-center'>
-          <h1 className='font-semibold text-2xl max-w-[400px]'>
+          <h1 className='font-semibold xl:text-3xl leading-10 max-w-[500px]'>
           Vast Mobile App Development
-          <span className='font-[800]'> Services We Offer</span>
+          <span className='font-[800] '> Services We Offer</span>
         </h1>
         </div>
 
