@@ -44,9 +44,9 @@ const ChooseUs = () => {
       <div className='grid  max-w-7xl mx-10 xl:grid-cols-4 md:grid-cols-3 grid-cols-1   gap-10   '>
             {
                 array.map((item,index)=>(
-                    <div key={index} className='xl:py-8 md:py-6 py-4 px-4 flex flex-col text-[#101820] bg-[#FFFFFF] hover:border-blue-500 hover:border-1'>
+                    <div key={index} className='xl:py-10 md:py-6 py-4 px-4 flex flex-col text-[#101820] bg-[#FFFFFF]  border border-transparent transition-colors duration-300 ease-in-out cursor-pointer hover:border-blue-500'>
                           <h1 className='font-semibold mb-4 xl:text-[20px] text-[18px] mt-10'>{item.head}</h1>
-                          <p className='xl:text-lg'>{item.para}</p>
+                          <p className='xl:text-[20px]'>{item.para}</p>
                     </div>
                 ))
             }
