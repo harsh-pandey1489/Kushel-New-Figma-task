@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import navLogo from '../assets/images/kds logo 1.png'
+import navLogo from '../assets/images/kds-logo.png'
 import { FiMenu, FiX } from "react-icons/fi";
 const Navbar = () => {
 

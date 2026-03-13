@@ -1,6 +1,6 @@
 import React from 'react'
 import cloud from '../assets/service-image/cloud-computing.png'
-import apple from '../assets/service-image/apple (1).png'
+import apple from '../assets/service-image/apple.png'
 import android from '../assets/service-image/android.png'
 import app from '../assets/service-image/app-development.png'
 const service = [
